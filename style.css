@@ -1,0 +1,235 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-family: 'kennedys', serif;
+    color: #ffef25;
+    line-height: 1;
+    margin: 0 2rem 2rem 2rem;
+    padding: 1rem 0;
+  }
+  h2 {
+    font-size: 2.6rem;
+    font-family: 'kennedys', serif;
+    color: #FFFFFF;
+    line-height: 1;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+  h3 {
+    font-size: 1.8rem;
+    font-family: 'Open Sans', serif;
+    color: #FFFFFF;
+    line-height: 1;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+  p {
+    font-size: 1.8rem;
+    color: #ffffff;
+    line-height: 1.4;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+  a {
+    color: gray;
+  }
+  a:focus,
+  a:hover {
+    color: gray;
+  }
+
+  ul,
+  ol {
+    color: #ffffff;
+  }
+
+.header {
+    background-image: url('/img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: auto;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+@media (min-width: 768px ) {
+    .header {
+      margin-bottom: 4rem;
+    }
+}
+
+.header-top {
+    position: relative;
+}
+
+.header-social {
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    padding: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 768px ) {
+    .header-social {
+      left: 1rem;
+      top: 1rem;
+      transform: initial;
+    }
+}
+
+.header-sosmed {
+    left: 0;
+    height: 3rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+@media (min-width: 768px ) {
+    .header-sosmed {
+      height: 2rem;
+      margin-right: 10px;
+    }
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-button {
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    font-family: 'arial', serif;
+    cursor: pointer;
+}
+
+.header-button a {
+    text-decoration: none;
+}
+
+@media (min-width: 425px ) {
+    .header-button {
+      width: 10rem;
+      transform: initial;
+    }
+}
+
+@media (min-width: 640px ) {
+    .header-button {
+      width: 15rem;
+    }
+}
+
+@media (min-width: 1024px ) {
+    .header-button {
+      width: 20rem;
+    }
+}
+
+.header-program {
+    position: absolute;
+    top: 25%;
+    text-decoration: none;
+}
+
+.header-program:before {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+@media (min-width: 640px ) {
+    .header-program {
+      top: auto;
+      left: 5%;
+    }
+}
+
+.header-work {
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+}
+
+.header-work:before {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+@media (min-width: 640px ) {
+    .header-work {
+      top: auto;
+      right: 5%;
+    }
+}
+
+.header-aboutme {
+    position: absolute;
+    left: 60%;
+    bottom: 15%;
+    width: 8rem;
+    padding: 0.5rem;
+    margin-left: -8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    border: 0.5px solid gray;
+    font-size: 0.3rem;
+}
+
+.header-aboutme:before {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+.header-aboutme:hover {
+    background-color: red;
+    opacity: 0.8;
+}
+
+@media (min-width: 768px ) {
+    .header-aboutme {
+      bottom: 5.5rem;
+      border: 2px solid gray;
+      font-size: 2rem;
+      left: 50%;
+      bottom: 15%;
+      width: 16rem;
+    }
+}
+
+.header-line {
+    border-left: 2px solid gray;
+    height: 13%;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+}
+
+@media (min-width: 768px ) {
+    .header-line {
+      height: 6rem;
+    }
+  }
