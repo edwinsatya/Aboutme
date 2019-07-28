@@ -408,13 +408,37 @@ h1 {
   }
 }
 
-.bingkai {
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 20%;
+.bingkai1 {
+  margin: 0;
+  padding-left: 1%;
+  padding-top: 15%;
 }
 
-.ket-program {
-  padding-top: 15%;
-  padding-left: 8%;
+.ket-program1 {
+  padding-top: 10%;
+  padding-left: 1%;
+  padding-right: 10%;
+}
+
+.bingkai2 {
+  margin: 0;
+  padding-left: 1%;
+  padding-top: 2%;
+}
+
+.ket-program2 {
+  padding-top: 10%;
+  padding-left: 1%;
+  padding-right: 10%;
+}
+
+.bingkai3 {
+  padding-left: 7%;
+  padding-top: 10%;
+}
+
+.ket-program3 {
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 10%;
 }
