@@ -232,4 +232,189 @@ h1 {
     .header-line {
       height: 6rem;
     }
+}
+
+.Page-header {
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: 2rem;
+  height: 12rem;
+}
+
+@media (min-width: 425px ) {
+  .Page-header {
+    top: 3rem;
+    height: 13rem;
   }
+}
+
+@media (min-width: 768px ) {
+  .Page-header {
+    top: 5rem;
+    height: auto;
+  }
+}
+
+.Page--Scroll {
+  width: 100vw;
+  max-width: 100%;
+  align-items: center;
+}
+
+.Page-title {
+  font-family: 'kennedys', serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  position: absolute;
+  display: flex;
+}
+
+.Page-title--Left {
+  left: 0;
+}
+
+@media (min-width: 768px ) {
+  .Page-title--Left {
+    left: 2vw;
+  }
+}
+
+.Page-title--Right {
+  left: 0;
+}
+
+@media (min-width: 768px ) {
+  .Page-title--Right {
+    left: 49vw;
+  }
+}
+
+@media (min-width: 768px ) {
+  .Page-title {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 1024px ) {
+  .Page-title {
+    font-size: 3.6rem;
+  }
+}
+
+.Page-excerpt--Left {
+  left: 5vw;
+  margin: 0 2rem;
+  top: 4rem;
+  display: flex;
+  position: relative;
+}
+.Page-excerpt--Left::before {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  border-bottom: 2px dashed white;
+  width: 6vw;
+  top: 1rem;
+  left: -8vw;
+}
+
+@media (min-width: 768px ) {
+  .Page-excerpt--Left::before {
+    width: 3vw;
+    left: -3.5vw;
+  }
+}
+
+@media (min-width: 768px ) {
+  .Page-excerpt--Left {
+    left: 2.5vw;
+    top: 5rem;
+  }
+}
+
+.Page-excerpt--Right {
+  left: 5vw;
+  margin: 0 2rem;
+  top: 4rem;
+  display: flex;
+  position: relative;
+}
+
+.Page-excerpt--Right::before {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  border-bottom: 2px dashed white;
+  width: 6vw;
+  top: 1rem;
+  left: -8vw;
+}
+
+@media (min-width: 768px ) {
+  .Page-excerpt--Right::before {
+    width: 50vw;
+    left: -51vw;
+  }
+}
+
+@media (min-width: 768px ) {
+  .Page-excerpt--Right {
+    left: 50vw;
+    top: 5rem;
+  }
+}
+
+.Page-container {
+  display: flex;
+}
+.Page-container--Content {
+  flex-direction: column;
+}
+@media (min-width: 768px ) {
+  .Page-container--Content {
+    height: 100vh;
+    align-items: center;
+    flex-direction: initial;
+  }
+}
+.Page-container--Form {
+  width: 100%;
+}
+.Page-container--Reverse {
+  flex-direction: column-reverse;
+}
+@media (min-width: 768px ) {
+  .Page-container--Reverse {
+    flex-direction: initial;
+  }
+}
+.Page-content {
+  padding: 2rem;
+}
+@media (min-width: 768px ) {
+  .Page-content {
+    padding: 0 2rem 0 2rem;
+  }
+}
+@media (min-width: 768px ) {
+  .Page-content--Left {
+    padding: 0 2rem 0 5rem;
+  }
+}
+@media (min-width: 1024px ) {
+  .Page-content--Left {
+    padding: 0 2rem 0 1rem;
+  }
+}
+
+.bingkai {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 20%;
+}
+
+.ket-program {
+  padding-top: 15%;
+  padding-left: 8%;
+}
