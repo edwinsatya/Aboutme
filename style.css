@@ -12,42 +12,42 @@ h1 {
     line-height: 1;
     margin: 0 2rem 2rem 2rem;
     padding: 1rem 0;
-  }
-  h2 {
+}
+
+h2 {
     font-size: 2.6rem;
     font-family: 'kennedys', serif;
     color: #FFFFFF;
     line-height: 1;
     margin: 0 0 1.5rem 0;
     padding: 0;
-  }
-  h3 {
+}
+
+h3 {
     font-size: 1.8rem;
     font-family: 'Open Sans', serif;
     color: #FFFFFF;
     line-height: 1;
     margin: 0 0 1.5rem 0;
     padding: 0;
-  }
-  p {
+}
+
+p {
     font-size: 1.8rem;
     color: #ffffff;
     line-height: 1.4;
     margin: 0 0 1.5rem 0;
     padding: 0;
-  }
-  a {
-    color: gray;
-  }
-  a:focus,
-  a:hover {
-    color: gray;
-  }
+}
 
-  ul,
-  ol {
-    color: #ffffff;
-  }
+a {
+    color: gray;
+}
+
+a:focus,
+a:hover {
+    color: gray;
+}
 
 .header {
     background-image: url('image/home/home.jpg');
@@ -428,7 +428,7 @@ h1 {
 
 .ket-program2 {
   padding-top: 10%;
-  padding-left: 1%;
+  padding-left: 5%;
   padding-right: 10%;
 }
 
@@ -442,3 +442,40 @@ h1 {
   padding-left: 20%;
   padding-right: 10%;
 }
+
+.bingkai4 {
+  padding-left: 43%;
+  padding-top: 1%;
+}
+
+.ket-program4 {
+  position: absolute;
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+footer {
+    position: static;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer div{
+    background-color: whitesmoke;
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0.1px;
+}
+
+footer div p {
+    color: black;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: 20px;
+}
+  
